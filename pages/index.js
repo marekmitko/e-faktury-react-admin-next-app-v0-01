@@ -28,7 +28,7 @@ export default function Home() {
             <h2>Pusty &rarr;</h2>
             <p>Pusty</p>
           </a>
-          <a href="./" className={styles.card}>
+          <a href="./page-generator-pdf" className={styles.card}>
             <h2>Generator PDF &rarr;</h2>
             <p>...</p>
           </a>
