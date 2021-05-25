@@ -1,10 +1,10 @@
-// import dynamic from "next/dynamic";
+import dynamic from "next/dynamic";
 
 
-// const PDFViewer = dynamic(() => import("./InvoicesGenerator/FvApp.js"), {
-//     ssr: false
-// });
+const DashboardUser = dynamic(() => import("./dashboard-user/App.js"), {
+    ssr: false
+});
 
-// export default function PDF() {
-//     return <PDFViewer />;
-// }
+export default function UserPanel () {
+    return <DashboardUser />;
+}

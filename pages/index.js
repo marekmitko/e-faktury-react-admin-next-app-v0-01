@@ -20,7 +20,7 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
         <div className={styles.grid}>
-          <a href="./dashboard-user" className={styles.card}>
+          <a href="./page-dashboard-user" className={styles.card}>
             <h2>Panel użytkownika &rarr;</h2>
             <p>react-admin</p>
           </a>
